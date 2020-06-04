@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projects</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/all.min.css"/>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- nav section start -->
+            <nav class="dash-nav col-2 p-0">
+                <div class="row w-100 m-0">
+                    <div class="col-12  logo">
+                        <p class="text-center text-dark">p</p>
+                    </div>
+
+                    <div class="col-12 nav-items p-0">
+
+                        <div class="col-12 p-0 m-0 nav-item">
+                            <div class="w-100 item pt-3 pb-2">
+                                <i class="fas fa-home ml-3 mr-2"  style="color: #999;"></i>
+                                <span class="name text-dark w-100"><a href="#" class="">dashboard</a></span>
+                            </div>
+                            <div class="w-100 sub-items pl-5"></div>
+                        </div>
+
+                        <div class="col-12 p-0 m-0 nav-item active">
+                            <div class="w-100 item pt-3 pb-2">
+                                <i class="fas fa-suitcase ml-3 mr-2"  style="color: #999;"></i>
+                                <span class="name text-dark">projects</span>
+                            </div>
+                            <div class="w-100 sub-items pl-5 pb-2">
+                                <a href="#" class="d-block p-1 active">project</a>
+                                <a href="#" class="d-block p-1">add project</a>
+                            </div>
+                        </div>
+
+                        <div class="col-12 p-0 m-0 nav-item">
+                            <div class="w-100 item pt-3 pb-2">
+                                <i class="fas fa-comment ml-3 mr-2"  style="color: #999;"></i>
+                                <span class="name text-dark"><a href="#">messages</a></span>
+                                <span class="float-right nbr mr-3">3</span>
+                            </div>
+                            <div class="w-100 sub-items pl-5"></div>
+                        </div>
+
+                        <div class="col-12 p-0 m-0 nav-item">
+                            <div class="w-100 item pt-3 pb-2">
+                                <i class="fas fa-puzzle-piece ml-3 mr-2"  style="color: #999;"></i>
+                                <span class="name text-dark"><a href="#">categories</a></span>
+                            </div>
+                            <div class="w-100 sub-items pl-5"></div>
+                        </div>
+
+                        <div class="col-12 p-0 m-0 nav-item">
+                            <div class="w-100 item pt-3 pb-2">
+                                <i class="fas fa-user-cog ml-3 mr-2"  style="color: #999;"></i>
+                                <span class="name text-dark"><a href="#">profile</a></span>
+                            </div>
+                            <div class="w-100 sub-items pl-5"></div>
+                        </div>
+
+                        <div class="col-12 p-0 m-0 nav-item">
+                            <div class="w-100 item pt-3 pb-2">
+                                <i class="fas fa-graduation-cap ml-3 mr-2"  style="color: #999;"></i>
+                                <span class="name text-dark">skills</span>
+                            </div>
+                            <div class="w-100 sub-items pl-5 pb-2">
+                                <a href="#" class="d-block p-1">tabs</a>
+                                <a href="#" class="d-block p-1">content</a>
+                            </div>
+                        </div>
+
+                        <div class="col-12 p-0 m-0 nav-item">
+                            <div class="w-100 item pt-3 pb-2">
+                                <i class="fas fa-hands ml-3 mr-2"  style="color: #999;"></i>
+                                <span class="name text-dark"><a href="#">interests</a></span>
+                            </div>
+                            <div class="w-100 sub-items pl-5"></div>
+                        </div>
+
+                        <div class="col-12 p-0 m-0 nav-item">
+                            <div class="w-100 item pt-3 pb-2">
+                                <i class="fas fa-cogs ml-3 mr-2"  style="color: #999;"></i>
+                                <span class="name text-dark"><a href="#">settings</a></span>
+                            </div>
+                            <div class="w-100 sub-items pl-5"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </nav>
+            <!-- nav section end -->
+
+            <!-- dashboard body start -->
+            <main class="col-10 p-0 m-0">
+                
+                <div class="row ml-0 mr-0 w-100 justify-content-center mt-5 h-100">
+                    <form class="project w-100" action="" method="">
+                        <div class="col-6 float-left">
+                            <div class="row">
+                                <div class="col pl-5">
+                                    <label for="projectName" class="text-capitalize"> Project Name</label>
+                                    <input type="text" class="rounded" name="projectName" id="projectName" />
+                                </div>
+                            </div>
+                            <div class="row pt-2">
+                                <div class="col pl-5">
+                                    <label for="projectCat" class="text-capitalize"> Category</label>
+                                    <select name="projectCat" class="rounded" id="projectCat">
+                                        <option>cat 1</option>
+                                        <option>cat 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row pt-2">
+                                <div class="col pl-5">
+                                    <label for="shortDesc" class="text-capitalize"> Short Description</label>
+                                    <textarea name="shortDesc" rows="4" class="rounded" id="shortDesc" ></textarea>
+                                </div>
+                            </div>
+                            <div class="row pt-2">
+                                <div class="col pl-5">
+                                    <label for="Video" class="text-capitalize"> Video Url</label>
+                                    <input type="text" class="rounded" name="Video" id="Video" />
+                                    <span class="d-block mb-2">Only Youtube Videos Not Inside Script Videos</span>
+                                </div>
+                            </div>
+                            <div class="row pt-2">
+                                <div class="col pl-5">
+                                    <label for="Tags" class="text-capitalize"> Tags</label>
+                                    <input type="text" class="rounded" name="Tags" id="Tags" />
+                                </div>
+                            </div>
+                            <div class="row pt-2">
+                                <div class="col pl-5">
+                                    <label for="Template" class="text-capitalize"> Template </label>
+                                    <input type="file" name="Template" id="Template" />
+                                    <span class="d-block mb-2">Only PNG File Allowed</span>
+                                </div>
+                            </div>
+                            <div class="row pt-2">
+                                <div class="col pl-5">
+                                    <label for="Pfiles" class="text-capitalize"> Project Files </label>
+                                    <input type="file" name="Pfiles" id="Pfiles" />
+                                    <span class="d-block mb-2">Only Zip And Rar Files Allowed</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 float-right">
+                            <div class="row pb-2">
+                                <div class="col">
+                                    <label for="screenImage">ScreenShot</label>
+                                    <div class="selectImg position-relative rounded">
+                                        <img src="" width="150" height="118"/>
+                                        <input type="file" name="screenImage" id="screenImage" />
+                                        <span class="position-absolute">Select Image</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pb-2">
+                                <div class="col-12 pt-2">
+                                    <label for="gols" class="text-capitalize">Gol</label>
+                                    <input type="text" class="rounded" name="gols[]" id="gols" />
+                                    <span class="span-add" data-role="gols">+</span>
+                                </div>
+                            </div>
+
+                            <div class="row pb-2">
+                                <div class="col-12 pt-2">
+                                    <label for="Framworks" class="text-capitalize">Framwork</label>
+                                    <input type="text" class="rounded" name="Framworks[]" id="Framworks" />
+                                    <span class="span-add" data-role="Framworks">+</span>
+                                </div>
+                            </div>
+
+                            <div class="row pb-2">
+                                <div class="col-12 pt-2">
+                                    <label for="Outcomes" class="text-capitalize">Outcome</label>
+                                    <input type="text" class="rounded" name="Outcomes[]" id="Outcomes" />
+                                    <span class="span-add" data-role="outcomes">+</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <div class="col text-center mt-3">
+                            <input type="submit" value="Save" class="rounded" name="addPro" id="addPro" />
+                        </div>
+                    </form>
+                </div>
+
+            </main>
+            <!-- dashboard body end -->
+        </div>
+    </div>
+    
+
+    <script src="js/jquery.js" ></script>
+    <script src="js/bootstrap.min.js" ></script>
+    <script src="js/all.min.js" ></script>
+    <script src="js/app.js" ></script>
+</body>
+</html>

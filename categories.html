@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projects</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/all.min.css"/>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- nav section start -->
+            <nav class="dash-nav col-2 p-0">
+                <div class="row w-100 m-0">
+                    <div class="col-12  logo">
+                        <p class="text-center text-dark">p</p>
+                    </div>
+
+                    <div class="col-12 nav-items p-0">
+
+                        <div class="col-12 p-0 m-0 nav-item">
+                            <div class="w-100 item pt-3 pb-2">
+                                <i class="fas fa-home ml-3 mr-2"  style="color: #999;"></i>
+                                <span class="name text-dark w-100"><a href="#" class="">dashboard</a></span>
+                            </div>
+                            <div class="w-100 sub-items pl-5"></div>
+                        </div>
+
+                        <div class="col-12 p-0 m-0 nav-item">
+                            <div class="w-100 item pt-3 pb-2">
+                                <i class="fas fa-suitcase ml-3 mr-2"  style="color: #999;"></i>
+                                <span class="name text-dark">projects</span>
+                            </div>
+                            <div class="w-100 sub-items pl-5 pb-2">
+                                <a href="#" class="d-block p-1 active">project</a>
+                                <a href="#" class="d-block p-1">add project</a>
+                            </div>
+                        </div>
+
+                        <div class="col-12 p-0 m-0 nav-item">
+                            <div class="w-100 item pt-3 pb-2">
+                                <i class="fas fa-comment ml-3 mr-2"  style="color: #999;"></i>
+                                <span class="name text-dark"><a href="#">messages</a></span>
+                                <span class="float-right nbr mr-3">3</span>
+                            </div>
+                            <div class="w-100 sub-items pl-5"></div>
+                        </div>
+
+                        <div class="col-12 p-0 m-0 nav-item active">
+                            <div class="w-100 item pt-3 pb-2">
+                                <i class="fas fa-puzzle-piece ml-3 mr-2"  style="color: #999;"></i>
+                                <span class="name text-dark"><a href="#">categories</a></span>
+                            </div>
+                            <div class="w-100 sub-items pl-5"></div>
+                        </div>
+
+                        <div class="col-12 p-0 m-0 nav-item">
+                            <div class="w-100 item pt-3 pb-2">
+                                <i class="fas fa-user-cog ml-3 mr-2"  style="color: #999;"></i>
+                                <span class="name text-dark"><a href="#">profile</a></span>
+                            </div>
+                            <div class="w-100 sub-items pl-5"></div>
+                        </div>
+
+                        <div class="col-12 p-0 m-0 nav-item">
+                            <div class="w-100 item pt-3 pb-2">
+                                <i class="fas fa-graduation-cap ml-3 mr-2"  style="color: #999;"></i>
+                                <span class="name text-dark">skills</span>
+                            </div>
+                            <div class="w-100 sub-items pl-5 pb-2">
+                                <a href="#" class="d-block p-1">tabs</a>
+                                <a href="#" class="d-block p-1">content</a>
+                            </div>
+                        </div>
+
+                        <div class="col-12 p-0 m-0 nav-item">
+                            <div class="w-100 item pt-3 pb-2">
+                                <i class="fas fa-hands ml-3 mr-2"  style="color: #999;"></i>
+                                <span class="name text-dark"><a href="#">interests</a></span>
+                            </div>
+                            <div class="w-100 sub-items pl-5"></div>
+                        </div>
+
+                        <div class="col-12 p-0 m-0 nav-item">
+                            <div class="w-100 item pt-3 pb-2">
+                                <i class="fas fa-cogs ml-3 mr-2"  style="color: #999;"></i>
+                                <span class="name text-dark"><a href="#">settings</a></span>
+                            </div>
+                            <div class="w-100 sub-items pl-5"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </nav>
+            <!-- nav section end -->
+
+            <!-- dashboard body start -->
+            <main class="col-10 p-0 m-0">
+                
+                <div class="row ml-0 mr-0 justify-content-center mt-5">
+                   <form class="w-100 row categories" method="" action="">
+                        <div class="col-6 text-center">
+                            <label for="catName">Category Name</label>
+                            <input type="text" class="rounded" required name="catName" id="catName" />
+                        </div>
+                        <div class="col-6 text-center">
+                            <label for="catImage">Category Icone</label>
+                            <input type="file" name="catImage" required id="catImage" />
+                        </div>
+                        <div class="col-12 text-center mt-4">
+                            <input type="submit" class="rounded" name="btn-Add-Cat" id="" value="Save" />
+                        </div>
+                   </form>
+                </div>
+                <hr class="mr-5 ml-5"/>
+                <div class="row justify-content-center">
+                    <div class="col-6 text-center">
+                        <table class="table table-borderless">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Icon</th>
+                                    <th>Controle</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td style="vertical-align: middle;">Pyhton</td>
+                                    <td><img width="50" height="50" src="/img/ps.png" /></td>
+                                    <td style="vertical-align: middle;"><a href="#"><i class="fas fa-edit"></i></a> - <a href="#"><i class="fas fa-delet"></i></a> </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align: middle;">Pyhton</td>
+                                    <td><img width="50" height="50" src="/img/ps.png" /></td>
+                                    <td style="vertical-align: middle;"><a href="#"><i class="fas fa-edit"></i></a> - <a href="#"><i class="fas fa-delet"></i></a> </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align: middle;">Pyhton</td>
+                                    <td><img width="50" height="50" src="/img/ps.png" /></td>
+                                    <td style="vertical-align: middle;"><a href="#"><i class="fas fa-edit"></i></a> - <a href="#"><i class="fas fa-delet"></i></a> </td>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align: middle;">Pyhton</td>
+                                    <td><img width="50" height="50" src="/img/ps.png" /></td>
+                                    <td style="vertical-align: middle;"><a href="#"><i class="fas fa-edit"></i></a> - <a href="#"><i class="fas fa-delet"></i></a> </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </main>
+            <!-- dashboard body end -->
+        </div>
+    </div>
+    
+
+    <script src="js/jquery.js" ></script>
+    <script src="js/bootstrap.min.js" ></script>
+    <script src="js/all.min.js" ></script>
+    <script src="js/app.js" ></script>
+</body>
+</html>

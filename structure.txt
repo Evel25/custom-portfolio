@@ -1,0 +1,122 @@
+portfolio structure
+
++ setup section
+    - dbname
+    - user name
+    - password
+    - site name
+    - setup default admin (user name ,password ,email, tel)
+    - 
+
++ index page
+    - navbar (well contain the navigation  buttons between all the pages)
+        -> button for each domain (web, android, desktop)
+    - sections
+        -> show about me section 
+        -> show your intersting section
+        -> show latest uploaded projects section using samll thumbnails
+        -> show skills on each language you learn section
+        -> show hire me button
+        -> what you have learned in this project
+
++ admin section (dashboard) after admin logged in
+    - add new createed project
+        - project name,logo,template png, ....
+    - control all the projects (update,delete,active)
+    - control the script
+        - active,logo,fiveicon,script icones if it's modifid (sprite image)
+    - profile info
+        - update profile info
+    - upload and download all the project files 
+        -> for downloading files you must insert the correct purchase code
+    
+
+===> template colors
+    - text color : #1b5c55 
+    - icon color (blue color) : #6495ED
+    - icon color 2 (dark color) : #7a7a7a
+    - button background #c1d4f5
+    - green color #1b5c55
+    - light blue #c1d4f5
+    - dashboard item hover color #e5edfb
+
+web :
+    php
+        mvc,oop,code Ignator,word Press
+    html 5
+    css3
+        bootstrap
+        sass
+    js
+        jquery 
+
+dashboard :
+    1)+ projects 
+        + show all projects (update ,delete,active, inactive)
+            ---> projects details
+                - name 
+                - category (language ex:pyhton ,c# ,php)           
+                - short descriotion     
+                - project vedeo url
+                - tags
+                - photshop template and logo [png file] (file input) optional
+                - project file for download [zip file] (file input) optional
+
+                - image icon (screen shot) (file inptu)
+                - projects gols (why did i start this project)
+                - used framworkd and librarys and techniques
+                - what i have learned in this project
+                - added date
+
+        + add new project
+
+    2)+ messages and feedbacks
+        + show all the messages (delete)
+
+    3)+ projects categories (programming languages)
+        + add new categories
+            + default icon (or screenshot)
+            + name 
+            + icones
+            + controle (update ,delete)
+            + add new 
+
+        + show all the categories (update , delete)
+        + 
+    4)+ profile (one item)
+        + full name
+        + name label (the text under the name)
+        + facebook,linked in,gmail, phone number
+        + my story
+        + profile image
+    5)+ skills
+        + main items ( tabs ) [is it's content is cursol or not]
+        + content (add new item to each panel) [if the content is carosal please use the carosal on the html]
+            - if the content is carosal you must inter the reeplacement of the points css
+
+        - tabs  (general skills inserted in the profile)
+            - icone,font-awsome class name, title ,controls
+        - content [if the ] (icon,tile,percentage)
+
+    6)+ interests
+        + add new 
+        + show all (update,delete)
+
+    7)+ settings (web site settings)
+        + default theme (color)
+        + update the sprite images containing (skills image,mastered manguages,mastered progrmas,logo )
+        + section (show and hide sections and maybe reorder sections)
+        + copyrights
+
+
+    - project details
+        - name 
+        - vedeo 
+        - short description
+        - gols
+        - added date
+        - used framworks and liberarys and techniques
+        - 
+
+        
+    
